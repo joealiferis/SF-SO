@@ -27,8 +27,7 @@ Make Gas Safe notification for Ferroli appliances with InstallersMate
     <preference name="android-installLocation" value="auto" />
     <preference name="android-build-tool" value="gradle" />
     <content src="index.html" />
-    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
-<access origin="*" browserOnly="true" />
+ <plugin name="org.apache.cordova.inappbrowser" spec="0.5.2" source="pgb" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
