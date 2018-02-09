@@ -7,6 +7,9 @@ Make Gas Safe notification for Ferroli appliances with InstallersMate
     <author email="joe@sansfrontiere.co.uk" href="http://sansfrontiere.co.uk">
         Sans Frontiere
     </author>
+    <icon src="res/im-logo.png" width="72" height="72" />
+    <icon src="res/im-logo.png" width="48" height="48" />
+    <icon src="res/im-logo.png" width="36" height="36" />
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
