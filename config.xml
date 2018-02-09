@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloWorld</name>
+<widget id="com.phonegap.InstallersMate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>InstallersMate</name>
     <description>
-        Hello World sample application with Pushwoosh Phonegap push notifications plugin integrated
+Make Gas Safe notification for Ferroli appliances with InstallersMate
     </description>
-    <author email="support@pushwoosh.com" href="http://pushwoosh.com">
-        Pushwoosh
+    <author email="joe@sansfrontiere.co.uk" href="http://sansfrontiere.co.uk">
+        Sans Frontiere
     </author>
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="orientation" value="default" />
@@ -13,7 +13,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
+    <preference name="stay-in-webview" value="true" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
