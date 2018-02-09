@@ -6,6 +6,12 @@
 <title>Sansfrontiere | A test app</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <meta name='robots' content='noindex,follow' />
+  <script type="text/javascript">
+    document.addEventListener('deviceready', function() {
+        var url = 'https://www.google.com' // change to whatever you want
+        cordova.InAppBrowser.open(url, '_self', 'location=no');
+    }, false)
+</script>
 </head>
 <body onload="window.open('http://www.installersmate.co.uk','_blank','location=no','toolbar=no','closebuttoncaption=Return');">
 </body>
