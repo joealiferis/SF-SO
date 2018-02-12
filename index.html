@@ -13,8 +13,17 @@ function onDeviceReady() {
     window.open = cordova.InAppBrowser.open;
 }
 </script>
+  <style>
+    .loadpage {
+      background:#000;
+      color:#fff;
+      font-size:2em;
+      padding:30px;
+      text-align:center;
+    }
+  </style>
 </head>
-<body onload="window.open('http://www.installersmate.co.uk', '_blank', 'location=no'); return false;">
+<body onload="window.open('http://www.installersmate.co.uk', '_blank', 'location=no'); return false;" class="loadpage">
 <p>LOADING...</>
 </body>
 </html>
